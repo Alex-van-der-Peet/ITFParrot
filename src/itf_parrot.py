@@ -1,16 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-from threading import Thread
-import urllib, pycurl, os
-import sys
-import argparse
-import re
-import urllib2
-import time
-from collections import namedtuple
 from std_msgs.msg import String
-import subprocess
 
 class Parrot():
     NODE_NAME = 'itf_parrot'
