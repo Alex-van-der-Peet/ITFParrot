@@ -1,0 +1,3 @@
+ <launch>
+   <node pkg="itf_parrot" type="itf_parrot.py" name="itf_parrot" output="screen"/>
+</launch>
